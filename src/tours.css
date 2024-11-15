@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Poppins&display=swap');
+/* html {
+    min-height: 100%;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans serif;
+    height: 100%;
+    background-image: linear-gradient(
+      to bottom,
+      #F3F3F3,
+      #F3F3F3 30%,
+      #0FD8D8 30%,
+      #0FD8D8 50%);
+    background-repeat: no-repeat;
+  } */
+  .errorMsg{
+    color: red;
+    font-size: 15px;
+  }
+  *{
+    font-family: 'Playfair Display SC', serif;
+  font-family: 'Poppins', sans-serif;
+  }
+  .content {
+    max-width: 65%;
+    max-height: 100%;
+    margin: 75px auto;
+    border-radius: 36px;
+    background-color: #eee9d4;
+    font-family: 'Playfair Display SC', serif;
+  font-family: 'Poppins', sans-serif;
+  }
+  .toursIntro{
+    align-items: center;
+    margin-left:20%;
+  }
+  .toursIntroHeader{
+    color:#004637;
+    font-size: 50px;
+    width: 80%;
+    text-align: center;
+  }
+  .toursIntroHeader1{
+    color:#004637;
+    font-size: 50px;
+    width: 70%;
+    text-align: left;
+  }
+.worldWide{
+  max-width: 40%;
+  border-radius: 40px;
+}
+
+.toursHeader{
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 9%;
+  margin-top: 2%;
+  align-items: center;
+}
+.toursHeader11{
+  color:#004637;
+}
+  .toursSecond{
+    margin-left: -4%;
+  }
+  .toursFeatures{
+       
+   background-color:#eee9d4;
+  border-radius: 70px;
+  padding-top: 10%; 
+  padding-bottom: 10%; 
+    
+  }
+  toursHeaderHP{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .toursIntroDesc{
+    width: 70%;color: #004637;
+    font-size: 14px;
+    /* margin-left: 60px; */
+  }
+  .toursform {
+    text-align: center;
+  }
+  
+  .title {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .progress {
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .progress-bar {
+    background-color: #FEAFEB;
+    margin-bottom: 20px;
+    border-radius: 16px;
+  }
+  
+  .bar-pink {
+    height: 26px;
+    width: 33%;
+    background-color: #21b6a8;
+    color: white;
+    border-radius: 16px;
+  }
+  
+  .categories {
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .flightsButton {
+    background-color: #21b6a8;
+    width: 33.3%;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 1%;
+    border-radius: 10px;
+font-family: 'Playfair Display SC', serif;
+  font-family: 'Poppins', sans-serif;} 
+    
+    .flightsButtonV2{
+    background-color: #F3F3F3;
+    color: #7E7E7E;
+    width: 33.3%;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 1%;
+    border-radius: 10px;
+  }
+    .hotelsButton {
+    background-color: #F3F3F3;
+    width: 33.3%;
+    border: none;
+    color: #7E7E7E;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 1%;
+    border-radius: 10px;
+  }
+  .hotelsButtonV2 {
+    background-color: #21b6a8;
+    color: white;
+    width: 33.3%;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 1%;
+    border-radius: 10px;
+  }
+  
+  
+  button:hover {
+    background-color: #21b6a8;
+    color: white;
+    /* border-radius: 5px ; */
+  }
+  
+  .Hotels {
+    margin-left: -4px;
+    margin-right: -4px;
+  }
+  
+  .row1 {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  
+  .locations {
+    display: inline-block;
+  }
+  
+  .from-location2 {
+    color: #004637;
+    margin-right: 2%;
+  }
+  .toursHeader , .toursP{
+    color: #004637;
+  }
+  .from {
+    /* -webkit-appearance: none; */
+    background-color: #21b6a8;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 2%;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+  font-family: 'Poppins', sans-serif;
+
+  }
+  
+  .from-location1 {
+    width: 45%;
+  }
+  
+  .to-location1 {
+    width: 45%;
+  }
+  
+  .to-location2 {
+    color: #004637;
+  }
+  
+  .to {
+    width: 70%;
+    /* -webkit-appearance: none; */
+    background-color: #21b6a8;
+    border-radius: 10px;
+    margin-left: 2%;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+  font-family: 'Poppins', sans-serif;
+  }
+  
+  .row2 {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  
+  .dates {
+    display: inline-block;
+    border: none;
+  }
+  
+  .depart {
+    width: 45%;
+    color: #004637;
+    margin-right: -2.5%;
+
+  }
+  
+  .departure-date {
+    border: none;
+    width: 35%;
+    padding: 8px 8px;
+    background-color: #21b6a8;
+    margin-left: 5.5%;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+  font-family: 'Poppins', sans-serif;
+
+  }
+  
+  .return {
+    width: 45%;
+    color: #004637;
+    margin-right: 2%;
+  }
+  
+  .return-date {
+    border: none;
+    padding: 8px 8px;
+    background-color: #21b6a8;
+    margin-left: 2%;
+    color: white;
+
+    border-radius: 10px;
+    font-family: 'Playfair Display SC', serif;
+  font-family: 'Poppins', sans-serif;
+  }
+  
+  .next-button {
+    padding-top: 10px;
+    padding-bottom: 10px; 
+     
+  }
+  
+  .next {
+    display: block;
+    margin: 20px auto 20px;
+    margin-left: 45%;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #21b6a8;
+    color: white;
+    border: none;
+    border-radius: 16px; 
+  }
+  
+  .next:hover {
+    background-color: #21b6a8;
+  }
+  .personLabel{
+    width: 45%;
+    color: #004637;
+    
+  }
+.personField{
+  border: none;
+  padding: 8px 8px;
+  background-color: #21b6a8;
+  margin-left: 2%;
+  color: white;
+  border-radius: 10px;
+  width: 6%;
+  margin-right: 1%;
+  margin-left: 1%;
+  text-align: center;
+
+}
+  .numOfPerson{
+margin-top: 4%;
+  }
+  .person-{
+margin-left: 2%;
+  }
+
+
+  /* Add this to your CSS file or style section */
+.tableContainer {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tableHeader {
+  background-color: #f2f2f2;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.tableCell {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.actionButton {
+  padding: 8px 12px;
+  background: #21b6a8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.actionButtonRemove{
+  background: red;
+}

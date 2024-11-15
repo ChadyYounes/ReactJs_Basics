@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+
+.footerContainer {
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+    margin-bottom: -2%;
+    margin-top: -3%;
+}
+
+.footer {
+	background-color: #151515;
+	padding: 80px 0;border-top-right-radius: 50px;
+    padding: 80px 0;border-top-left-radius: 50px;
+}
+
+.footerContainerRow {
+	max-width: 1170px;
+	margin: auto;
+    display: flex;
+	flex-wrap: wrap;
+}
+
+
+.footerList {
+	list-style: none;
+}
+
+.footer-col {
+	width: 25%;
+	padding: 0 15px;
+    
+ 
+}
+
+.footer-col .footerH4 {
+	font-size: 18px;
+	color: #FFF;
+    text-align: left;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+    left:14.5%;
+}
+
+.footer-col .footerH4::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #21b6a8;
+	width: 50%;
+	height: 2px;
+}
+
+.footer-col .footerList .footerListChild:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footerLinks {
+	color: #DDD;
+	display: block;
+	font-size: 1rem;
+	font-weight: 300;
+	text-transform: capitalize;
+	text-decoration: none;
+	transition: all 0.3s ease;
+       text-align: left;
+}
+
+.footerLinks {
+	color: #FFF;
+	padding-left: 7px;
+}
+
+
+
+.footerDownload{
+    max-width: 80%;
+ margin-left: 8%;
+ max-height: 100px;
+}
+@media(max-width: 767px) {
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+
+@media(max-width: 574px) {
+	.footer-col {
+		width: 100%;
+	}
+}

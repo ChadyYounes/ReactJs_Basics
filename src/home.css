@@ -1,0 +1,133 @@
+.All{
+ 
+  width: 100%;
+  /* border-bottom-left-radius: 5%; */
+  
+}
+.All .home-journeys{
+    /* background-color: #f1eddd; */
+    background-color: #ffffff;
+    padding-bottom: 15%;
+    /* opacity: 50%; */
+    width: 100%;
+    
+    border-bottom-left-radius: 20px; /* Adjust the curve radius as needed */
+    border-bottom-right-radius: 20px;
+  }
+  
+  .home-journeys-quote{
+    color: #004637;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: 100px;
+    line-height: 45px;
+  }
+  .home-journeys-desc{
+    font-size: 14px;
+    margin-left: 60px;
+    margin-top: -1%;
+  }
+  
+  .switzerland-img{
+    max-width: 80%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 190px;
+    border-radius: 10px;
+  }
+  .All .countriesContainer .cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ background-color:#eee9d4;
+border-top-right-radius: 50px;
+border-top-left-radius: 50px;
+padding-top: 40%; padding-bottom: 10%; 
+z-index: -1;
+  }
+
+
+.homePaperPlane{
+  position: absolute;
+  left: -6%;
+  opacity: 60%;
+  top: 55%;
+ z-index: 0;
+  width: 45%;
+ 
+}
+.homeCompass{
+  position: absolute;
+  left: 65%;
+  opacity: 20%;
+  top: 7%;
+ z-index: 0;
+  width: 45%;
+}
+.countriesContainer .countryIntro{
+  width: 80%;
+left:11%;
+position: absolute;
+padding-top: 12%;
+padding-bottom: 10%;
+
+}
+.countriesContainer .countryIntro .countryIntroHeader{
+  color:#004637;
+  font-size: 60px;
+  text-align: center;
+z-index: 1;
+
+  }
+
+.countryCard{
+  padding-top: 5%;
+  max-width: 23%;
+margin-left: 5%;
+}
+  .countryCard .image-container {
+    overflow: hidden;
+    position: relative;
+    width: 300px; /* Adjust the width as needed */
+    height: 230px; /* Adjust the height as needed */
+    border-radius: 10%;
+  }
+  
+  .countryCard .image-container .countryCardImg {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.9s ease;
+    object-fit: cover;
+    
+  }
+  
+  .countryCard .image-container:hover .countryCardImg {
+    transform: scale(1.2);
+    transform-origin: 50% 50%;
+    
+    filter: brightness(90%); 
+    transition: transform 1s ease;
+   }
+
+   .countryCardH4{
+    color: #004637;
+    font-weight: bolder;
+   }
+   .countryCardDesc{
+    opacity: 80%;
+    color: #004637;
+    font-size: 14px;
+    font-weight: 300 ;
+   }
+/* 
+  .countryCard .image-container:hover .countryCardImg:hover {
+    filter: brightness(70%); 
+    transition: filter 0.9s ease; } */
+
+  
+
+
+  

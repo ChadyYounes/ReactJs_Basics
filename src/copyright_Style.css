@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.copyrightBar{
+    bottom: 0;
+    background-color: #151515;
+    margin-bottom: -10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.copyrightBar .copyrightParagraph{
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Poppins', sans-serif;
+}

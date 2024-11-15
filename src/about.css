@@ -1,0 +1,88 @@
+.aboutAll {
+    background-color: #eee9d4;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+  }
+  
+  .about-container {
+    padding-top: 3%;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out; /* Use a transition for a smooth fade effect */
+    padding-bottom: 4%;
+  }
+  
+  .aboutContainer {
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out; /* Use a transition for a smooth fade effect */
+  }
+  
+  .fade-in {
+    opacity: 1;
+  }
+  
+  .aboutHeader {
+    color: #004637;
+    font-size: 40px;
+  }
+  .aboutHeader2 {
+    color: #004637;
+    font-size: 60px;
+    text-align: center;
+    font-size:40px;
+    margin-bottom: 4%;
+  }
+  
+  .aboutCards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8%;
+    margin-bottom: 10%;
+  }
+  .aboutFirst{
+    padding-bottom: 12%;
+  }
+  .aboutTopic1{
+    margin-left: 12%;
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /* Center items vertically */
+  }
+  .aboutTopic2 {
+    margin-left: 40%;
+    margin-top: 10%;
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .aboutHP {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 500px;
+    display: flex;
+    flex-direction: column; /* Align text content vertically */
+    justify-content: center;
+  }
+  
+  
+  .aboutTopicImage1 {
+    width: 120px; 
+   
+    object-fit: contain; 
+  }
+
+  
+  .aboutTopicText1 {
+    opacity: 90%;
+    color: #004637;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .aboutTopicHeader1 {
+    color: #004637;
+    font-size: 25px;
+  }

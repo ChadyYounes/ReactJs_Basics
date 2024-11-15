@@ -1,0 +1,29 @@
+{
+    "flights": [
+      {
+        "id": 1,
+        "from": "New York",
+        "to": "Los Angeles",
+        "departDate": "2023-01-15",
+        "returnDate": "2023-01-20",
+        "price": 350.99
+      },
+      {
+        "id": 2,
+        "from": "London",
+        "to": "Paris",
+        "departDate": "2023-02-10",
+        "returnDate": "2023-02-15",
+        "price": 220.50
+      },
+      {
+        "id": 3,
+        "from": "Tokyo",
+        "to": "Sydney",
+        "departDate": "2023-03-05",
+        "returnDate": "2023-03-12",
+        "price": 600.75
+      }
+    ]
+  }
+  

@@ -1,0 +1,91 @@
+
+
+.toursCard{
+    padding-top: 5%;
+    max-width: 23%;
+  margin-left: 7%;
+  margin-bottom: 5%;
+  text-align: left;
+ 
+  }
+    .toursCard .tours-image-container {
+      overflow: hidden;
+      position: relative;
+      width: 300px; /* Adjust the width as needed */
+      height: 230px; /* Adjust the height as needed */
+      border-radius: 10%;
+      
+    }
+    .toursCards2{
+        width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .toursCard .tours-image-container .toursCardImg {
+      width: 100%;
+      height: 100%;
+      transition: transform 0.9s ease;
+      object-fit: cover;
+    }
+    
+    .toursCard .tours-image-container:hover .toursCardImg {
+      transform: scale(1.2);
+      transform-origin: 50% 50%;
+      
+      filter: brightness(90%); 
+      transition: transform 1s ease;
+     }
+  
+     .toursCardH4{
+      color: #004637;
+      font-weight: bolder;
+      margin-left: 0.5%;
+     }
+     .toursRating{
+        max-width: 35%;
+        height: 15%;
+        margin-left: -3%;
+        margin-top: -16%;
+   
+     }
+     .toursText1{
+        text-align: left;
+        margin-top: -3%;
+
+     }
+   
+     .toursPrice{
+        color: #004637;
+      font-weight: bold;
+      font-size: 12px;
+      opacity: 90%;
+      margin-top: -10%;
+      margin-left: 1%;
+     }
+     .toursButton{
+        position: absolute;
+        margin-top: -3.3%;
+        margin-left: 17%;
+        padding-top:0.5% ;
+        padding-left:  1%;
+        padding-right: 1%;
+        padding-bottom: 0.5%;
+        border-radius: 5px;
+        border: none;
+        background-color: #21b6a8;
+        color: white;
+     }
+     .toursButton:hover{
+        background-color: #188075;
+        color: white;position: absolute;
+        margin-top: -3.3%;
+        margin-left: 17%;
+        padding-top:0.5% ;
+        padding-left:  1%;
+        padding-right: 1%;
+        padding-bottom: 0.5%;
+        border-radius: 5px;
+        border: none;
+    }
+    

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Poppins&display=swap');
+
+body {
+  /* margin: 0; */
+  font-family: 'Playfair Display SC', serif;
+  font-family: 'Poppins', sans-serif;
+  /* background-color: #EDE7D1; */
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+/* .nav img {
+  max-width: 100px;
+  height: auto;
+} */
+
+.nav .logo {
+  font-size: 25px;
+  color: #21B6A8;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+}
+
+.nav .navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 535px;
+  top: 35px;
+}
+
+.nav .navList .navListElement {
+  margin-right: 20px; /* Adjust margin as needed */
+  color: #21B6A8;
+  font-size: 17px;
+}
+.nav .navList .navListElement .navListElementLink{
+  text-decoration: none;
+  color: inherit;
+}
+
+#login {
+  background-color: #21B6A8;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  font-size: 17px;
+  /* font-weight: 600; */
+  position: absolute;
+  left: 1100px;
+  top: 30px;
+  font-family: 'Playfair Display SC', serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 2%;
+}
+#signup {
+  background-color: #21B6A8;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  font-size: 17px;
+  /* font-weight: 600; */
+  position: absolute;
+  left: 1210px;
+  top: 30px;
+  font-family: 'Playfair Display SC', serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 2%;
+}
+.hrContainer{
+  text-align: center;
+}
+.hrHome{
+  margin-top: 100px;
+  width: 500px;
+  border: none;
+  border-top: 1px solid #008080;
+}
